@@ -65,7 +65,6 @@
 @media (max-width: 40em) {
   .form {
     grid-template-columns: 1fr;
-    width: 37rem;
   }
 
   html {
