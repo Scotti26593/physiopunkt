@@ -1,0 +1,588 @@
+/*
+
+Navigation bar colour : #f1f3f5;
+main-heading color: #343a40;
+sub-heading colour:  #495057;
+general text  color: #343a40;
+background colour beige #fffcf9;
+background colour light green  #e6f2ef;
+secondary-heading color: #868e96;
+
+
+
+section padding top and bottom 9.6rem
+
+
+
+
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "garamond", sans-serif;
+  font-size: 62.5%;
+
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #e6f2ef;
+  padding-bottom: 0rem;
+  padding-right: 0rem;
+  position: relative;
+}
+
+.Logo-Lisa img {
+  width: 6.4rem;
+  height: 6.4rem;
+  border-radius: 50%;
+  margin-top: 0.5rem;
+  margin-left: 1rem;
+}
+
+.navigation-list {
+  display: flex;
+
+  align-items: center;
+  text-decoration: none;
+  gap: 7.5rem;
+  padding: 1rem;
+  text-decoration: none;
+  padding-left: 2.4rem;
+  font-size: 1.8rem;
+  font-weight: 700;
+  list-style: none;
+  padding-right: 4rem;
+}
+
+.navigation-link:link,
+.navigation-link:visited {
+  text-decoration: none;
+  color: rgb(87, 83, 83);
+}
+
+.navigation-link:active,
+.navigation-link:hover {
+  color: #087f5b;
+  transform: scale(1.1);
+  display: block;
+}
+
+/*HERO SECTION*/
+/**/
+/**/
+/**/
+/**/
+/*HERO SECTION*/
+
+.hero-section {
+  display: flex;
+  background-color: #fffcf9;
+
+  padding-bottom: 9rem;
+  align-items: start;
+  padding-bottom: 9.6rem;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vb;
+}
+
+.hero-heading {
+  font-size: 6.4rem;
+  padding-bottom: 4.2rem;
+  padding-top: 8rem;
+}
+
+.hero-sub-heading {
+  font-size: 4.2rem;
+  color: #495057;
+}
+
+.hero-logo {
+  width: 35rem;
+}
+
+/*ÜBER MICH*/
+/**/
+/**/
+/**/
+/**/
+/**/
+/*ÜBER MICH */
+
+.über-mich-section {
+  padding-bottom: 14.6rem;
+  background-color: #e6f2ef;
+}
+
+.über-mich {
+  padding-top: 7.6rem;
+}
+
+.lisa-portrait {
+  width: 42.4rem;
+  grid-column: 2;
+  grid-row: 1;
+  border-radius: 1.2rem;
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.2);
+  transition: all 1s;
+  align-self: center;
+}
+
+.lisa-portrait:hover {
+  transform: scale(1.2);
+}
+
+.über-mich-headings {
+  margin-bottom: 6.4rem;
+}
+
+.über-mich-box {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  column-gap: 10rem;
+  line-height: 1.8;
+  color: #343a40;
+  font-weight: 500;
+  column-gap: 12.6rem;
+}
+
+.text {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 1.8rem;
+}
+.über-mich-text-1 {
+  grid-column: 1;
+  margin-bottom: 1.6rem;
+}
+
+.über-mich-text-2 {
+  grid-column: 1;
+  margin-bottom: 1.6rem;
+}
+.über-mich-text-3 {
+  grid-column: 1;
+}
+
+/*was ich anbiete*/
+/**/
+/**/
+/**/
+/**/
+/**/
+/*was ich anbiete */
+
+.was-ich-anbiete-section {
+  padding-bottom: 14.6rem;
+  background-color: #fffcf9;
+
+  padding-top: 9.6rem;
+}
+
+.skill-text {
+  font-size: 1.8rem;
+  color: #343a40;
+  line-height: 1.6;
+}
+
+.img-skill img {
+  width: 36rem;
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.2);
+  border-radius: 1.2rem;
+}
+
+.skill-text-box {
+  align-self: center;
+}
+
+.img-skill {
+  justify-self: center;
+}
+
+/*CALL TO ACTION*/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/*CALL TO ACTION*/
+
+.call-to-action {
+  padding-top: 9.6rem;
+  padding-bottom: 9.6rem;
+
+  background-color: #fffcf9;
+}
+
+.call-to-action-container {
+  padding-top: 1.6rem;
+  padding-bottom: 9.6rem;
+}
+
+.contact-me-heading {
+  font-size: 3.6rem;
+}
+
+.phone-number-container {
+  display: flex;
+  align-items: center;
+}
+.phone-number {
+  text-decoration: none;
+  font-size: 2.8rem;
+  color: #868e96;
+  margin-left: 4rem;
+  font-weight: 550;
+  letter-spacing: 0.25rem;
+}
+.phone-number-icon {
+  font-size: 4rem;
+  color: #087f5b;
+}
+
+.form {
+  display: grid;
+  grid-template-columns: 40fr 60fr;
+  row-gap: 2.6rem;
+  padding: 3.6rem 3.6rem 3.6rem 3.6rem;
+  background-color: #e6f2ef;
+  column-gap: 5rem;
+  background-size: cover;
+  width: fit-content;
+
+  border-radius: 1.8rem;
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.1);
+}
+
+.form label {
+  display: block;
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 1.6rem;
+}
+
+.form input {
+  padding: 1.2rem;
+  border: none;
+  border-radius: 0.5rem;
+}
+
+.details-box {
+  padding-left: 4.2rem;
+}
+
+.message-box textarea {
+  resize: none;
+  border: none;
+  border-radius: 0.5rem;
+  margin-bottom: 1.8rem;
+  padding: 1rem;
+}
+
+.message-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.daten-schutz {
+  font-size: 1.4rem;
+}
+
+.form-btn {
+  padding: 1.2rem 3.6rem;
+  display: block;
+  border: none;
+  background-color: white;
+  border-radius: 0.5rem;
+}
+
+.form-btn:active,
+.form-btn:hover {
+  background-color: #087f5b;
+  color: white;
+}
+
+.form-element-btn {
+  padding-top: 2.6rem;
+}
+
+.form-element-email {
+  padding-top: 3.6rem;
+}
+
+#message {
+  height: 16rem;
+}
+
+.thank-you-container {
+  font-size: 9.6rem;
+  color: #087f5b;
+  font-weight: 600;
+  align-items: center;
+  justify-content: center;
+  height: 100vb;
+}
+
+/*TESTAMONIALS*/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/*TESTAMONIALS*/
+
+.testamonials-section {
+  padding-top: 9.6rem;
+  padding-bottom: 9.6rem;
+
+  background-color: #e6f2ef;
+}
+
+.testamonials-container {
+  display: grid;
+  grid-template-columns: 50fr 50fr;
+  column-gap: 4.6rem;
+}
+
+.testamonials-box {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 3.2rem;
+  row-gap: 3.2rem;
+}
+
+.testamonial {
+  font-size: 1.6rem;
+  line-height: 1.8;
+}
+
+.customer {
+  display: grid;
+  grid-template-columns: 20fr 80fr;
+  margin-bottom: 2.6rem;
+
+  align-items: center;
+}
+
+.stars-name ion-icon {
+  color: gold;
+}
+
+.testamonial-icon {
+  font-size: 3.6rem;
+  color: #087f5b;
+  margin-bottom: 1.6rem;
+
+  background-color: #e6f2ef;
+  padding-right: 1.6rem;
+  padding-top: 1.6rem;
+  padding-bottom: 1.6rem;
+  border-radius: 50%;
+  grid-row: 1 / 2;
+}
+
+.testamonial-image img {
+  height: 50rem;
+  border-radius: 2rem;
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.2);
+}
+
+.testamonial-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*DROP DOWN MENU*/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+
+/*DROP DOWN MENU*/
+
+.nav-menu-btn {
+  display: flex;
+  border: none;
+  background: none;
+  cursor: pointer;
+  padding-left: 1rem;
+  padding-right: 2.4rem;
+  display: none;
+}
+
+.nav-menu-icon {
+  height: 3.8rem;
+  width: 3.8rem;
+}
+
+.nav-menu-icon[name="close-outline"] {
+  display: none;
+}
+
+.nav-btn-open {
+  display: flex;
+  letter-spacing: 0.5rem;
+
+  align-items: center;
+  font-size: 2rem;
+}
+
+/*STICKY MENU*/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/*STICKY MENU*/
+
+/* all of these styles will only apply to the header when the the sticky element 
+is a attached to the parent of the header, which is the body.
+In JS we will ad the sticky elements to the body.
+
+We add the sticky to the body so we are able to add the class to different chiled elemts.
+*/
+
+.sticky .header {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 8rem;
+  padding-top: 0;
+  padding-bottom: 0;
+  background-color: rgba(255, 255, 255, 0.898);
+  box-shadow: 0, 1.2rem, 3rem rgba(0, 0, 0, 0.2);
+  z-index: 999;
+}
+
+/*we need to add margin the the hero bottom to conpensate, so it dose not jump*/
+
+.sticky .hero-section {
+  margin-bottom: 6rem;
+  background-color: #fffcf9;
+}
+
+/*FOOTER*/
+/*FOOTER*/
+/*FOOTER*/
+/*FOOTER*/
+/*FOOTER*/
+/*FOOTER*/
+/*FOOTER*/
+/*FOOTER*/
+/*FOOTER*/
+
+.footer-container {
+  padding-top: 10rem;
+  padding-left: 5rem;
+  padding-bottom: 5rem;
+  display: flex;
+  gap: 5rem;
+  font-size: 1.4rem;
+  color: #495057;
+  font-weight: 500;
+  align-items: center;
+}
+
+.footer-container h3 {
+  margin-bottom: 2rem;
+  font-size: 1.6rem;
+}
+
+.footer-phone-number {
+  text-decoration: none;
+  color: #087f5b;
+  margin-top: 1rem;
+  font-size: 1.8rem;
+  font-weight: 600;
+  display: block;
+}
+
+.footer-phone-number:active,
+.footer-phone-number:hover {
+  transform: scale(1.05);
+}
+
+.footer-email {
+  margin-top: 1rem;
+  text-decoration: none;
+  color: #087f5b;
+  font-weight: 600;
+  font-size: 1.6rem;
+  margin-top: 1rem;
+  display: block;
+}
+
+.footer-email:active,
+.footer-email:hover {
+  transform: scale(1.05);
+}
+
+.footer-instagram {
+  font-size: 5rem;
+  color: #087f5b;
+
+  display: block;
+}
+.footer-logo img {
+  height: 15rem;
+  width: 15rem;
+}
+
+.footer-instagram:active,
+.footer-instagram:hover {
+  transform: scale(1.1);
+}
+
+.footer-daten-schutz {
+  display: block;
+  font-size: 1.8rem;
+  font-weight: 600;
+  text-decoration: none;
+  color: #087f5b;
+  margin-top: 1.4rem;
+}
+.footer-daten-schutz:active,
+.footer-daten-schutz:hover {
+  transform: scale(1.025);
+}
