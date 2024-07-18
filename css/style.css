@@ -335,6 +335,18 @@ html {
   padding-top: 3.6rem;
 }
 
+.form-select-element {
+  padding-top: 3.6rem;
+}
+
+.form-select-element select {
+  padding: 1.2rem;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: white;
+  color: #868e96;
+}
+
 #message {
   height: 16rem;
 }
