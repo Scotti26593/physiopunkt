@@ -70,6 +70,19 @@
   html {
     font-size: 43.5%;
   }
+
+  .further-leistungen {
+    display: block;
+  }
+
+  .further-leistungen ul {
+    display: block;
+    line-height: 2.6rem;
+  }
+
+  .further-leistungen h4 {
+    margin-bottom: 1.8rem;
+  }
   /*NAVIGATION OPEN AND CLOSE*/
   /**/
   /**/
