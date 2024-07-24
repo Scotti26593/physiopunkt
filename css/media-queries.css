@@ -187,6 +187,9 @@
 /*420PX*/
 
 @media (max-width: 27em) {
+  .hero-logo {
+    width: 38rem;
+  }
   .container-small {
     max-width: 120rem;
     margin: 0 auto;
