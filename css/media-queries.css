@@ -139,7 +139,7 @@
 /*37em === 600PX*/
 @media (max-width: 37em) {
   .hero-logo {
-    width: 40rem;
+    width: 45rem;
   }
   .hero-heading {
     font-size: 4.2rem;
@@ -190,7 +190,7 @@
   .container-small {
     max-width: 120rem;
     margin: 0 auto;
-    padding: 0 3.2rem;
+    padding: 0 1.2rem;
   }
 
   .hero-heading {
