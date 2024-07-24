@@ -3,7 +3,7 @@
 Navigation bar colour : #f1f3f5;
 main-heading color: #343a40;
 sub-heading colour:  #495057;
-general text  color: #343a40;
+general text  color: #495057
 background colour beige #fffcf9;
 background colour light green  #e6f2ef;
 secondary-heading color: #868e96;
@@ -12,26 +12,7 @@ secondary-heading color: #868e96;
 
 section padding top and bottom 9.6rem
 
-
-
-
 */
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-html {
-  font-family: "garamond", sans-serif;
-  font-size: 62.5%;
-
-  scroll-behavior: smooth;
-}
-
-* {
-  margin: 0;
-}
 
 .header {
   display: flex;
@@ -103,6 +84,8 @@ html {
 }
 
 .hero-heading {
+  color: #2b8a3e;
+  font-weight: 500;
   font-size: 6.4rem;
   padding-bottom: 4.2rem;
   padding-top: 8rem;
@@ -134,6 +117,7 @@ html {
 
 .über-mich {
   padding-top: 7.6rem;
+  color: #495057;
 }
 
 .lisa-portrait {
@@ -160,7 +144,7 @@ html {
 
   column-gap: 10rem;
   line-height: 1.8;
-  color: #343a40;
+  color: #495057
   font-weight: 500;
   column-gap: 12.6rem;
 }
@@ -202,7 +186,8 @@ html {
 
 .skill-text {
   font-size: 1.8rem;
-  color: #343a40;
+  
+  color: #495057;
   line-height: 1.6;
 }
 
@@ -409,7 +394,7 @@ html {
 .testamonials-section {
   padding-top: 9.6rem;
   padding-bottom: 9.6rem;
-
+  color: #495057;
   background-color: #e6f2ef;
 }
 
@@ -562,7 +547,7 @@ We add the sticky to the body so we are able to add the class to different chile
   padding-left: 5rem;
   padding-bottom: 5rem;
   display: flex;
-  gap: 5rem;
+  gap: 12rem;
   font-size: 1.4rem;
   color: #495057;
   font-weight: 500;
@@ -581,6 +566,7 @@ We add the sticky to the body so we are able to add the class to different chile
   font-size: 1.8rem;
   font-weight: 600;
   display: block;
+  margin-bottom: 1.2rem;
 }
 
 .footer-phone-number:active,
