@@ -139,7 +139,7 @@
 /*37em === 600PX*/
 @media (max-width: 37em) {
   .hero-logo {
-    width: 35rem;
+    width: 40rem;
   }
   .hero-heading {
     font-size: 4.2rem;
@@ -194,7 +194,6 @@
   }
 
   .hero-logo {
-    width: 35rem;
   }
 
   .testamonial-image img {
