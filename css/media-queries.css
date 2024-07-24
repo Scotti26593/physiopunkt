@@ -139,7 +139,7 @@
 /*37em === 600PX*/
 @media (max-width: 37em) {
   .hero-logo {
-    width: 25rem;
+    width: 35rem;
   }
   .hero-heading {
     font-size: 4.2rem;
@@ -148,8 +148,17 @@
     grid-template-columns: 1fr;
   }
 
+  .skill {
+    justify-self: center;
+  }
+
   .row-change {
     grid-row: 1;
+  }
+
+  .hero-logo {
+    display: flex;
+    flex-direction: column;
   }
 
   .footer-container {
@@ -180,6 +189,12 @@
 @media (max-width: 27em) {
   .hero-heading {
     font-size: 2.8rem;
+
+    margin-bottom: 4rem;
+  }
+
+  .hero-logo {
+    width: 35rem;
   }
 
   .testamonial-image img {
@@ -202,6 +217,14 @@
 /*20em === 320PX*/
 @media (max-width: 20em) {
   .container {
-    padding: 0 2.2rem;
+    padding: 2 2.2rem;
+  }
+
+  .lisa-portrait {
+    width: 38rem;
+  }
+
+  html {
+    font-size: 38.5%;
   }
 }

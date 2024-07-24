@@ -99,13 +99,15 @@ html {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 100vb;
+  height: 90vb;
 }
 
 .hero-heading {
   font-size: 6.4rem;
   padding-bottom: 4.2rem;
   padding-top: 8rem;
+  margin-bottom: 4rem;
+  margin-top: 8rem;
 }
 
 .hero-sub-heading {
@@ -208,6 +210,7 @@ html {
   width: 36rem;
   box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.2);
   border-radius: 1.2rem;
+  align-self: center;
 }
 
 .skill-text-box {
@@ -216,6 +219,7 @@ html {
 
 .img-skill {
   justify-self: center;
+  align-self: center;
 }
 
 .further-leistungen {
