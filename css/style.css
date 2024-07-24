@@ -625,9 +625,9 @@ We add the sticky to the body so we are able to add the class to different chile
   font-weight: 600;
   text-decoration: none;
   color: #868e96;
-  margin-top: 1.4rem;
+  font-size: 1.4rem;
 }
-.footer-daten-schutz:active,
+.footer-daten-schutz:a margin-topctive,
 .footer-daten-schutz:hover {
   transform: scale(1.025);
 }

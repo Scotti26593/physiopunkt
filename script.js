@@ -105,18 +105,3 @@ obs.observe(sectionHeroElement);
 //FORM TEXT BOX////
 //FORM TEXT BOX////
 //FORM TEXT BOX////
-
-if (visualViewport.width < 400) {
-  alert("hello world");
-}
-
-/*
-const boxSmall = document.querySelector("box-small");
-const boxBig = document.querySelector("box2-big");
-
-if (visualViewport.width < 900) {
-  alert("hello world");
-}
-*/
-
-console.log();
