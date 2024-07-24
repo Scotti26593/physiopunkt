@@ -187,6 +187,12 @@
 /*420PX*/
 
 @media (max-width: 27em) {
+  .container-small {
+    max-width: 120rem;
+    margin: 0 auto;
+    padding: 0 3.2rem;
+  }
+
   .hero-heading {
     font-size: 2.8rem;
 
