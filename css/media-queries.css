@@ -212,6 +212,10 @@
   .testamonial {
     margin-bottom: 2.4rem;
   }
+
+  .hero {
+    height: 90vb;
+  }
 }
 
 /*20em === 320PX*/
